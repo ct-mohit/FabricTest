@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Raw",
+    "path": "/Files",
+    "target": {
+      "type": "AdlsGen2",
+      "adlsGen2": {
+        "connectionId": "1e2d7377-b157-4572-9f7e-7eed183ad850",
+        "location": "https://mstrainingdatalake.dfs.core.windows.net",
+        "subpath": "/taxidata/Raw"
+      }
+    }
+  },
+  {
+    "name": "flights",
+    "path": "/Files",
+    "target": {
+      "type": "AdlsGen2",
+      "adlsGen2": {
+        "connectionId": "1e2d7377-b157-4572-9f7e-7eed183ad850",
+        "location": "https://mstrainingdatalake.dfs.core.windows.net",
+        "subpath": "/taxidata/flights"
+      }
+    }
+  }
+]
