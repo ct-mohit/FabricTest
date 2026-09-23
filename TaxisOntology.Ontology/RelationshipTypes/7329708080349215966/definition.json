@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/ontology/relationshipType/1.0.0/schema.json",
+  "namespace": "usertypes",
+  "id": "7329708080349215966",
+  "name": "pickupZone",
+  "namespaceType": "Custom",
+  "source": {
+    "entityTypeId": "279629898836841"
+  },
+  "target": {
+    "entityTypeId": "134852139408809"
+  }
+}

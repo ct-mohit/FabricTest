@@ -1,0 +1,33 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/ontology/dataBinding/1.0.0/schema.json",
+  "id": "dcdc628c-21c7-45a1-a22e-2453695624f2",
+  "dataBindingConfiguration": {
+    "dataBindingType": "TimeSeries",
+    "timestampColumnName": "Timestamp",
+    "propertyBindings": [
+      {
+        "sourceColumnName": "CabNumber",
+        "targetPropertyId": "6928903151737132740"
+      },
+      {
+        "sourceColumnName": "EngineTemp",
+        "targetPropertyId": "7402528990076244430"
+      },
+      {
+        "sourceColumnName": "Speed",
+        "targetPropertyId": "7402528990723299884"
+      },
+      {
+        "sourceColumnName": "Timestamp",
+        "targetPropertyId": "7402528990938359622"
+      }
+    ],
+    "sourceTableProperties": {
+      "sourceType": "LakehouseTable",
+      "workspaceId": "00000000-0000-0000-0000-000000000000",
+      "itemId": "61c8c6e1-bc89-4879-85e1-32cd4f0ac838",
+      "sourceTableName": "cabrunningstats",
+      "sourceSchema": null
+    }
+  }
+}

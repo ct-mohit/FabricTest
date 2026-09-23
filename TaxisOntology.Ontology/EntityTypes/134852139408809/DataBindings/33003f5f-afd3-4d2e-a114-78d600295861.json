@@ -1,0 +1,32 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/ontology/dataBinding/1.0.0/schema.json",
+  "id": "33003f5f-afd3-4d2e-a114-78d600295861",
+  "dataBindingConfiguration": {
+    "dataBindingType": "NonTimeSeries",
+    "propertyBindings": [
+      {
+        "sourceColumnName": "Borough",
+        "targetPropertyId": "7307717754046655741"
+      },
+      {
+        "sourceColumnName": "LocationID",
+        "targetPropertyId": "7307717752771606191"
+      },
+      {
+        "sourceColumnName": "service_zone",
+        "targetPropertyId": "7307717753470854532"
+      },
+      {
+        "sourceColumnName": "Zone",
+        "targetPropertyId": "7307717755136403779"
+      }
+    ],
+    "sourceTableProperties": {
+      "sourceType": "LakehouseTable",
+      "workspaceId": "00000000-0000-0000-0000-000000000000",
+      "itemId": "61c8c6e1-bc89-4879-85e1-32cd4f0ac838",
+      "sourceTableName": "taxizones",
+      "sourceSchema": null
+    }
+  }
+}

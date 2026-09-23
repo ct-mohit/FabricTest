@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Ontology",
+    "displayName": "TaxisOntology"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "a9ea3568-2b15-4e7f-8d71-5ab845e48dee"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/ontology/contextualization/1.0.0/schema.json",
+  "id": "cd72f6ce-2395-4865-8026-47b344dce4c6",
+  "dataBindingTable": {
+    "workspaceId": "00000000-0000-0000-0000-000000000000",
+    "itemId": "61c8c6e1-bc89-4879-85e1-32cd4f0ac838",
+    "sourceTableName": "greentaxis",
+    "sourceSchema": null,
+    "sourceType": "LakehouseTable"
+  },
+  "sourceKeyRefBindings": [
+    {
+      "sourceColumnName": "RideId",
+      "targetPropertyId": "7311273518547256306"
+    }
+  ],
+  "targetKeyRefBindings": [
+    {
+      "sourceColumnName": "DriverLicenseNumber",
+      "targetPropertyId": "7302284162589509079"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/ontology/dataBinding/1.0.0/schema.json",
+  "id": "7a083f64-0535-4c57-9227-047b150e3de4",
+  "dataBindingConfiguration": {
+    "dataBindingType": "NonTimeSeries",
+    "propertyBindings": [
+      {
+        "sourceColumnName": "PaymentTypeId",
+        "targetPropertyId": "7310079443438473374"
+      },
+      {
+        "sourceColumnName": "PaymentTypeName",
+        "targetPropertyId": "7310079439298874515"
+      }
+    ],
+    "sourceTableProperties": {
+      "sourceType": "LakehouseTable",
+      "workspaceId": "00000000-0000-0000-0000-000000000000",
+      "itemId": "61c8c6e1-bc89-4879-85e1-32cd4f0ac838",
+      "sourceTableName": "paymenttypes",
+      "sourceSchema": null
+    }
+  }
+}
