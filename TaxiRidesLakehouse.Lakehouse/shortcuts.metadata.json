@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Raw",
+    "path": "/Files",
+    "target": {
+      "type": "AdlsGen2",
+      "adlsGen2": {
+        "connectionId": "0f77db61-fc56-4815-9f66-fe3e8958324c",
+        "location": "https://mstrainingdatalake.dfs.core.windows.net",
+        "subpath": "/taxidata/Raw"
+      }
+    }
+  }
+]

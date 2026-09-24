@@ -1,0 +1,92 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/ontology/dataBinding/1.0.0/schema.json",
+  "id": "9b4658a4-ae8d-4f7d-b0e1-9619b9a7700f",
+  "dataBindingConfiguration": {
+    "dataBindingType": "NonTimeSeries",
+    "propertyBindings": [
+      {
+        "sourceColumnName": "CabNumber",
+        "targetPropertyId": "2540898977453074"
+      },
+      {
+        "sourceColumnName": "DriverLicenseNumber",
+        "targetPropertyId": "2540900242858912"
+      },
+      {
+        "sourceColumnName": "DropLocationId",
+        "targetPropertyId": "2540899239666525"
+      },
+      {
+        "sourceColumnName": "DropTime",
+        "targetPropertyId": "2540902449865598"
+      },
+      {
+        "sourceColumnName": "Extra",
+        "targetPropertyId": "2540900113995984"
+      },
+      {
+        "sourceColumnName": "FareAmount",
+        "targetPropertyId": "2540899217607755"
+      },
+      {
+        "sourceColumnName": "ImprovementSurcharge",
+        "targetPropertyId": "2540900281036474"
+      },
+      {
+        "sourceColumnName": "MtaTax",
+        "targetPropertyId": "2540898958741318"
+      },
+      {
+        "sourceColumnName": "PassengerCount",
+        "targetPropertyId": "2540898550907494"
+      },
+      {
+        "sourceColumnName": "PaymentType",
+        "targetPropertyId": "2540899513810986"
+      },
+      {
+        "sourceColumnName": "PickupLocationId",
+        "targetPropertyId": "2540901246947192"
+      },
+      {
+        "sourceColumnName": "PickupTime",
+        "targetPropertyId": "2540902529922367"
+      },
+      {
+        "sourceColumnName": "RateCodeId",
+        "targetPropertyId": "2540900735148388"
+      },
+      {
+        "sourceColumnName": "RideId",
+        "targetPropertyId": "2540899252345193"
+      },
+      {
+        "sourceColumnName": "TipAmount",
+        "targetPropertyId": "2540899724397292"
+      },
+      {
+        "sourceColumnName": "TollsAmount",
+        "targetPropertyId": "2540901865940749"
+      },
+      {
+        "sourceColumnName": "TotalAmount",
+        "targetPropertyId": "2540902501601272"
+      },
+      {
+        "sourceColumnName": "TripDistance",
+        "targetPropertyId": "2540901260824311"
+      },
+      {
+        "sourceColumnName": "VendorId",
+        "targetPropertyId": "2540901336807746"
+      }
+    ],
+    "sourceTableProperties": {
+      "sourceType": "LakehouseTable",
+      "workspaceId": "00000000-0000-0000-0000-000000000000",
+      "itemId": "2602dd46-6270-9216-4201-34919d430576",
+      "sourceTableName": "yellowtaxis",
+      "sourceSchema": null
+    }
+  }
+}

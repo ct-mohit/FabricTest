@@ -1,0 +1,44 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/ontology/dataBinding/1.0.0/schema.json",
+  "id": "55b35c7c-ddd4-4a48-952b-a555f915a136",
+  "dataBindingConfiguration": {
+    "dataBindingType": "NonTimeSeries",
+    "propertyBindings": [
+      {
+        "sourceColumnName": "AddressID",
+        "targetPropertyId": "83841153550215540"
+      },
+      {
+        "sourceColumnName": "AddressLine1",
+        "targetPropertyId": "83841153546433968"
+      },
+      {
+        "sourceColumnName": "AddressLine2",
+        "targetPropertyId": "83841153668918279"
+      },
+      {
+        "sourceColumnName": "City",
+        "targetPropertyId": "83841153019316335"
+      },
+      {
+        "sourceColumnName": "ModifiedDate",
+        "targetPropertyId": "83841153789124075"
+      },
+      {
+        "sourceColumnName": "PostalCode",
+        "targetPropertyId": "83841154514163543"
+      },
+      {
+        "sourceColumnName": "rowguid",
+        "targetPropertyId": "83841150971668120"
+      }
+    ],
+    "sourceTableProperties": {
+      "sourceType": "LakehouseTable",
+      "workspaceId": "e5ba2634-3235-4753-a30e-304e88ec4051",
+      "itemId": "a40b40a3-9cf5-4ae5-87e3-b9111ea1816c",
+      "sourceTableName": "Address",
+      "sourceSchema": null
+    }
+  }
+}

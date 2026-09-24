@@ -1,0 +1,36 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/ontology/dataBinding/1.0.0/schema.json",
+  "id": "2b3bb71a-6a29-481f-9ada-ab24e7925d11",
+  "dataBindingConfiguration": {
+    "dataBindingType": "NonTimeSeries",
+    "propertyBindings": [
+      {
+        "sourceColumnName": "DriverLicenseNumber",
+        "targetPropertyId": "9213547667375439779"
+      },
+      {
+        "sourceColumnName": "ExpirationDate",
+        "targetPropertyId": "9213547668154142695"
+      },
+      {
+        "sourceColumnName": "LastTimeUpdated",
+        "targetPropertyId": "9213547664821772114"
+      },
+      {
+        "sourceColumnName": "Name",
+        "targetPropertyId": "9213547668122930162"
+      },
+      {
+        "sourceColumnName": "Type",
+        "targetPropertyId": "9213547668440757485"
+      }
+    ],
+    "sourceTableProperties": {
+      "sourceType": "LakehouseTable",
+      "workspaceId": "00000000-0000-0000-0000-000000000000",
+      "itemId": "2602dd46-6270-9216-4201-34919d430576",
+      "sourceTableName": "drivers",
+      "sourceSchema": null
+    }
+  }
+}

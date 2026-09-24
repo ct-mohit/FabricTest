@@ -1,0 +1,76 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/ontology/dataBinding/1.0.0/schema.json",
+  "id": "6fa11d90-e537-424f-9349-8a008c8d9b64",
+  "dataBindingConfiguration": {
+    "dataBindingType": "NonTimeSeries",
+    "propertyBindings": [
+      {
+        "sourceColumnName": "Active",
+        "targetPropertyId": "9199392859244507570"
+      },
+      {
+        "sourceColumnName": "Address",
+        "targetPropertyId": "9199392860190974171"
+      },
+      {
+        "sourceColumnName": "CabNumber",
+        "targetPropertyId": "9199392860494969071"
+      },
+      {
+        "sourceColumnName": "LastDateUpdated",
+        "targetPropertyId": "9199392859838037816"
+      },
+      {
+        "sourceColumnName": "LastTimeUpdated",
+        "targetPropertyId": "9199392857848773351"
+      },
+      {
+        "sourceColumnName": "LicenseType",
+        "targetPropertyId": "9199392860481771203"
+      },
+      {
+        "sourceColumnName": "Name",
+        "targetPropertyId": "9199392858854329660"
+      },
+      {
+        "sourceColumnName": "PermitLicenseNumber",
+        "targetPropertyId": "9199392857551098390"
+      },
+      {
+        "sourceColumnName": "TelephoneNumber",
+        "targetPropertyId": "9199392856831982629"
+      },
+      {
+        "sourceColumnName": "VehicleLicenseNumber",
+        "targetPropertyId": "9199392860242970210"
+      },
+      {
+        "sourceColumnName": "VehicleType",
+        "targetPropertyId": "9199392859581612471"
+      },
+      {
+        "sourceColumnName": "VehicleVinNumber",
+        "targetPropertyId": "9199392859331074520"
+      },
+      {
+        "sourceColumnName": "VehicleYear",
+        "targetPropertyId": "9199392858860182417"
+      },
+      {
+        "sourceColumnName": "Website",
+        "targetPropertyId": "9199392859965943607"
+      },
+      {
+        "sourceColumnName": "WheelchairAccessible",
+        "targetPropertyId": "9199392856936439308"
+      }
+    ],
+    "sourceTableProperties": {
+      "sourceType": "LakehouseTable",
+      "workspaceId": "00000000-0000-0000-0000-000000000000",
+      "itemId": "2602dd46-6270-9216-4201-34919d430576",
+      "sourceTableName": "cabs",
+      "sourceSchema": null
+    }
+  }
+}

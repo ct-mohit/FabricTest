@@ -1,0 +1,23 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/ontology/contextualization/1.0.0/schema.json",
+  "id": "f73d8713-0de6-4633-952d-dad1cb708e92",
+  "dataBindingTable": {
+    "workspaceId": "00000000-0000-0000-0000-000000000000",
+    "itemId": "2602dd46-6270-9216-4201-34919d430576",
+    "sourceTableName": "yellowtaxis",
+    "sourceSchema": null,
+    "sourceType": "LakehouseTable"
+  },
+  "sourceKeyRefBindings": [
+    {
+      "sourceColumnName": "RideId",
+      "targetPropertyId": "2540899252345193"
+    }
+  ],
+  "targetKeyRefBindings": [
+    {
+      "sourceColumnName": "DriverLicenseNumber",
+      "targetPropertyId": "9213547667375439779"
+    }
+  ]
+}
