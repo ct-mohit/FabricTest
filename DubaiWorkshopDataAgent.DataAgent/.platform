@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "DataAgent",
+    "displayName": "DubaiWorkshopDataAgent"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "c246a402-d9e1-a0c4-4b23-55725effbb5d"
+  }
+}

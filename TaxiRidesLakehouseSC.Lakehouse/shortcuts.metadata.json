@@ -1,0 +1,62 @@
+[
+  {
+    "name": "yellowtaxis",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/yellowtaxis",
+        "itemId": "4bdb28ab-1522-4cca-a1b9-1755da467b00",
+        "workspaceId": "c0f20505-2d97-4910-a1f3-cd2148363d59"
+      }
+    }
+  },
+  {
+    "name": "paymenttypes",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/paymenttypes",
+        "itemId": "4bdb28ab-1522-4cca-a1b9-1755da467b00",
+        "workspaceId": "c0f20505-2d97-4910-a1f3-cd2148363d59"
+      }
+    }
+  },
+  {
+    "name": "drivers",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/drivers",
+        "itemId": "4bdb28ab-1522-4cca-a1b9-1755da467b00",
+        "workspaceId": "c0f20505-2d97-4910-a1f3-cd2148363d59"
+      }
+    }
+  },
+  {
+    "name": "cabs",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/cabs",
+        "itemId": "4bdb28ab-1522-4cca-a1b9-1755da467b00",
+        "workspaceId": "c0f20505-2d97-4910-a1f3-cd2148363d59"
+      }
+    }
+  },
+  {
+    "name": "Raw",
+    "path": "/Files",
+    "target": {
+      "type": "AdlsGen2",
+      "adlsGen2": {
+        "connectionId": "94bfc2b4-6bb5-4844-8452-2b2d8fbfcf11",
+        "location": "https://mstrainingdatalake.dfs.core.windows.net",
+        "subpath": "/taxidata/Raw"
+      }
+    }
+  }
+]

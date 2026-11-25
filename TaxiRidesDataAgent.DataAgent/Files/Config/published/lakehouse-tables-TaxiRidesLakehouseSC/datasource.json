@@ -1,0 +1,498 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/dataAgent/definition/dataSource/1.0.0/schema.json",
+  "artifactId": "740984ba-e3c5-8d4b-4fa6-190d790e3ce1",
+  "workspaceId": "00000000-0000-0000-0000-000000000000",
+  "dataSourceInstructions": null,
+  "displayName": "TaxiRidesLakehouseSC",
+  "type": "lakehouse_tables",
+  "userDescription": null,
+  "metadata": null,
+  "elements": [
+    {
+      "id": "bc615217-3d7a-4a52-8985-1250217ad9bd",
+      "is_selected": false,
+      "display_name": "Schemas",
+      "type": "schema_grouping",
+      "description": null,
+      "children": [
+        {
+          "id": "a67f448a-f6cb-4e7b-a5d8-3098ed955cf5",
+          "is_selected": false,
+          "display_name": "dbo",
+          "type": "lakehouse_tables.schema",
+          "description": null,
+          "children": [
+            {
+              "id": "f8ad4631-2918-4fe0-a1d1-77646b2cd3d6",
+              "is_selected": false,
+              "display_name": "Tables",
+              "type": "table_grouping",
+              "description": null,
+              "children": [
+                {
+                  "id": "66bf6b72-8bc8-45d8-961a-f6cf03902661",
+                  "is_selected": true,
+                  "display_name": "drivers",
+                  "type": "lakehouse_tables.table",
+                  "description": null,
+                  "children": [
+                    {
+                      "id": "c168a0ab-4c46-4385-bb30-2e18dac9bf74",
+                      "is_selected": true,
+                      "display_name": "DriverLicenseNumber",
+                      "type": "lakehouse_tables.column",
+                      "data_type": "int",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "cc41b8a6-d645-4e1d-912d-8fed1dcb544f",
+                      "is_selected": true,
+                      "display_name": "Name",
+                      "type": "lakehouse_tables.column",
+                      "data_type": "varchar",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "186c8b64-d40d-4be8-8a84-2e587bf87126",
+                      "is_selected": true,
+                      "display_name": "Type",
+                      "type": "lakehouse_tables.column",
+                      "data_type": "varchar",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "9ba3b88e-86a2-4226-ba17-7137ca47c55c",
+                      "is_selected": true,
+                      "display_name": "ExpirationDate",
+                      "type": "lakehouse_tables.column",
+                      "data_type": "varchar",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "31ef45b3-a2ce-4908-ad79-18eb949a11ba",
+                      "is_selected": true,
+                      "display_name": "LastDateUpdated",
+                      "type": "lakehouse_tables.column",
+                      "data_type": "varchar",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "bb78a132-f509-4fb1-a2c1-f0e55e367303",
+                      "is_selected": true,
+                      "display_name": "LastTimeUpdated",
+                      "type": "lakehouse_tables.column",
+                      "data_type": "datetime2",
+                      "description": null,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "9dba0d4c-a56a-47ef-9845-c3d8dbf3736e",
+                  "is_selected": true,
+                  "display_name": "paymenttypes",
+                  "type": "lakehouse_tables.table",
+                  "description": null,
+                  "children": [
+                    {
+                      "id": "b3ea3759-d855-4ff7-9af1-28429568d692",
+                      "is_selected": true,
+                      "display_name": "PaymentTypeId",
+                      "type": "lakehouse_tables.column",
+                      "data_type": "int",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "b98c5a55-cffd-42ca-8f3b-60e8edd83c47",
+                      "is_selected": true,
+                      "display_name": "PaymentTypeName",
+                      "type": "lakehouse_tables.column",
+                      "data_type": "varchar",
+                      "description": null,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "fc82c8fd-4d36-4e7e-8873-db2e49bcb85e",
+                  "is_selected": true,
+                  "display_name": "yellowtaxis",
+                  "type": "lakehouse_tables.table",
+                  "description": null,
+                  "children": [
+                    {
+                      "id": "0b1ba5ce-9616-494a-bf2f-20e72263764e",
+                      "is_selected": true,
+                      "display_name": "RideId",
+                      "type": "lakehouse_tables.column",
+                      "data_type": "int",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "9d8a336e-06f0-4deb-be51-b83c71994cce",
+                      "is_selected": true,
+                      "display_name": "VendorId",
+                      "type": "lakehouse_tables.column",
+                      "data_type": "int",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "d43440c6-7019-4334-aa84-d697921dc2ca",
+                      "is_selected": true,
+                      "display_name": "PickupTime",
+                      "type": "lakehouse_tables.column",
+                      "data_type": "datetime2",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "a272f465-0a9a-481a-a19e-d6bb7650e19c",
+                      "is_selected": true,
+                      "display_name": "DropTime",
+                      "type": "lakehouse_tables.column",
+                      "data_type": "datetime2",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "1ab30afb-7a86-4d0f-ba8c-7de2b6373b4a",
+                      "is_selected": true,
+                      "display_name": "PickupLocationId",
+                      "type": "lakehouse_tables.column",
+                      "data_type": "int",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "0ed2c489-39c7-4190-ac96-4c2fd909b492",
+                      "is_selected": true,
+                      "display_name": "DropLocationId",
+                      "type": "lakehouse_tables.column",
+                      "data_type": "int",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "c58c0012-1ec8-4059-9297-a2269e331436",
+                      "is_selected": true,
+                      "display_name": "CabNumber",
+                      "type": "lakehouse_tables.column",
+                      "data_type": "varchar",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "424fb1d3-d577-4423-9c97-a0772744eeeb",
+                      "is_selected": true,
+                      "display_name": "DriverLicenseNumber",
+                      "type": "lakehouse_tables.column",
+                      "data_type": "int",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "b9cc8b54-26fb-4adf-8639-b3b6e0d2321a",
+                      "is_selected": true,
+                      "display_name": "PassengerCount",
+                      "type": "lakehouse_tables.column",
+                      "data_type": "int",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "a7fdbf8e-9129-40bf-8459-0fc674c768a5",
+                      "is_selected": true,
+                      "display_name": "TripDistance",
+                      "type": "lakehouse_tables.column",
+                      "data_type": "float",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "19c4b3f4-0f1f-4722-ba7a-3f6f941e6e83",
+                      "is_selected": true,
+                      "display_name": "RateCodeId",
+                      "type": "lakehouse_tables.column",
+                      "data_type": "int",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "8ae27a3b-f2cf-4b1c-9e33-955edadd9db2",
+                      "is_selected": true,
+                      "display_name": "PaymentType",
+                      "type": "lakehouse_tables.column",
+                      "data_type": "int",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "ab072f64-7abf-46b8-bbac-12716fd2a637",
+                      "is_selected": true,
+                      "display_name": "TotalAmount",
+                      "type": "lakehouse_tables.column",
+                      "data_type": "float",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "0939b217-df63-46a7-b78f-37e8c10cb789",
+                      "is_selected": true,
+                      "display_name": "FareAmount",
+                      "type": "lakehouse_tables.column",
+                      "data_type": "float",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "f66e8ecc-cdcb-43b8-a232-a18cc4eab0ba",
+                      "is_selected": true,
+                      "display_name": "Extra",
+                      "type": "lakehouse_tables.column",
+                      "data_type": "float",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "6fee58cb-e636-4897-81ce-c12174ac06ff",
+                      "is_selected": true,
+                      "display_name": "MtaTax",
+                      "type": "lakehouse_tables.column",
+                      "data_type": "float",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "156aba4f-288d-4825-86b0-41756e1f6e91",
+                      "is_selected": true,
+                      "display_name": "TipAmount",
+                      "type": "lakehouse_tables.column",
+                      "data_type": "float",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "e07b691d-0bd6-43d4-b042-7d5a62f91b11",
+                      "is_selected": true,
+                      "display_name": "TollsAmount",
+                      "type": "lakehouse_tables.column",
+                      "data_type": "float",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "00f4196a-36ef-4c87-b325-22ce847b0caa",
+                      "is_selected": true,
+                      "display_name": "ImprovementSurcharge",
+                      "type": "lakehouse_tables.column",
+                      "data_type": "float",
+                      "description": null,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "4952680b-0d96-4d2e-a401-15525c1e379b",
+                  "is_selected": true,
+                  "display_name": "cabs",
+                  "type": "lakehouse_tables.table",
+                  "description": null,
+                  "children": [
+                    {
+                      "id": "5e09686a-4d7a-476b-b5dd-4c387a571845",
+                      "is_selected": true,
+                      "display_name": "CabNumber",
+                      "type": "lakehouse_tables.column",
+                      "data_type": "varchar",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "80fc2fc3-a36c-49dc-8590-79b4cef0191f",
+                      "is_selected": true,
+                      "display_name": "VehicleLicenseNumber",
+                      "type": "lakehouse_tables.column",
+                      "data_type": "varchar",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "cc69e8be-9443-46db-90d6-95fa8b065634",
+                      "is_selected": true,
+                      "display_name": "Name",
+                      "type": "lakehouse_tables.column",
+                      "data_type": "varchar",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "0cb14ed3-00ef-4f21-a581-2ed7dce3c37e",
+                      "is_selected": true,
+                      "display_name": "LicenseType",
+                      "type": "lakehouse_tables.column",
+                      "data_type": "varchar",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "9574e965-2d22-4bbf-9875-6f489d4b2775",
+                      "is_selected": true,
+                      "display_name": "Active",
+                      "type": "lakehouse_tables.column",
+                      "data_type": "varchar",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "642ef405-830f-45a3-af55-8e488d587f53",
+                      "is_selected": true,
+                      "display_name": "PermitLicenseNumber",
+                      "type": "lakehouse_tables.column",
+                      "data_type": "varchar",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "9380131c-6351-4daa-ae21-112f333d0c53",
+                      "is_selected": true,
+                      "display_name": "VehicleVinNumber",
+                      "type": "lakehouse_tables.column",
+                      "data_type": "varchar",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "6e24c04c-9f88-4e6c-92e1-ae1754c66f5a",
+                      "is_selected": true,
+                      "display_name": "WheelchairAccessible",
+                      "type": "lakehouse_tables.column",
+                      "data_type": "varchar",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "6ef10dd1-53e9-4f24-a2e4-f6cf1e3fddfd",
+                      "is_selected": true,
+                      "display_name": "VehicleYear",
+                      "type": "lakehouse_tables.column",
+                      "data_type": "int",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "faaabc2c-0395-4cc8-b168-33a6c7642702",
+                      "is_selected": true,
+                      "display_name": "VehicleType",
+                      "type": "lakehouse_tables.column",
+                      "data_type": "varchar",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "2d3251e2-3bf5-438a-a09b-cdcc7cf56b79",
+                      "is_selected": true,
+                      "display_name": "TelephoneNumber",
+                      "type": "lakehouse_tables.column",
+                      "data_type": "varchar",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "abbc3863-53a6-44a7-a22e-cb73d8e05c02",
+                      "is_selected": true,
+                      "display_name": "Website",
+                      "type": "lakehouse_tables.column",
+                      "data_type": "varchar",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "bcdc5b90-b672-47c4-a0c0-feacdaf63e36",
+                      "is_selected": true,
+                      "display_name": "Address",
+                      "type": "lakehouse_tables.column",
+                      "data_type": "varchar",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "a67d0644-5884-439a-9dec-293b58001728",
+                      "is_selected": true,
+                      "display_name": "LastDateUpdated",
+                      "type": "lakehouse_tables.column",
+                      "data_type": "varchar",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "4c39fba9-2a12-43d6-9e57-b7b080cf7280",
+                      "is_selected": true,
+                      "display_name": "LastTimeUpdated",
+                      "type": "lakehouse_tables.column",
+                      "data_type": "datetime2",
+                      "description": null,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "56164430-4c77-49e1-9747-f3ce84ef6cc4",
+                  "is_selected": true,
+                  "display_name": "taxizones",
+                  "type": "lakehouse_tables.table",
+                  "description": null,
+                  "children": [
+                    {
+                      "id": "d0f4d812-94a7-4de0-883b-b06ed15b62c4",
+                      "is_selected": true,
+                      "display_name": "LocationID",
+                      "type": "lakehouse_tables.column",
+                      "data_type": "int",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "a0e15b12-6e5f-4b91-bd58-0087cbbd4212",
+                      "is_selected": true,
+                      "display_name": "Borough",
+                      "type": "lakehouse_tables.column",
+                      "data_type": "varchar",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "46d17929-88b7-4694-b7e9-ecb1c1e4f096",
+                      "is_selected": true,
+                      "display_name": "Zone",
+                      "type": "lakehouse_tables.column",
+                      "data_type": "varchar",
+                      "description": null,
+                      "children": []
+                    },
+                    {
+                      "id": "9039b998-c2b0-46f7-8aed-38c1d418efbe",
+                      "is_selected": true,
+                      "display_name": "service_zone",
+                      "type": "lakehouse_tables.column",
+                      "data_type": "varchar",
+                      "description": null,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

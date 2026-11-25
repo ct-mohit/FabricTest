@@ -1,0 +1,17 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/dataAgent/definition/stageConfiguration/1.0.0/schema.json",
+  "aiInstructions": null,
+  "experimental": {
+    "azureAISearchConfigs": [
+      {
+        "azureAiSearchIndexName": "insurance-index",
+        "azureAiSearchEndpoint": "https://ps-aisearch.search.windows.net",
+        "azureAiSearchDescription": null,
+        "azureAiSearchUserDescription": "",
+        "azureAiSearchDisplayName": "",
+        "azureAiSearchSearchType": "hybrid_semantic",
+        "azureAiSearchTopk": null
+      }
+    ]
+  }
+}

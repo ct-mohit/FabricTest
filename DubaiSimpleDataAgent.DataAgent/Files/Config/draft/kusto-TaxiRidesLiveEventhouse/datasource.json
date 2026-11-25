@@ -1,0 +1,90 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/dataAgent/definition/dataSource/1.0.0/schema.json",
+  "artifactId": "357b1f8e-1c98-4dab-9421-d94167150e1f",
+  "workspaceId": "c0f20505-2d97-4910-a1f3-cd2148363d59",
+  "dataSourceInstructions": null,
+  "displayName": "TaxiRidesLiveEventhouse",
+  "type": "kusto",
+  "userDescription": null,
+  "metadata": null,
+  "elements": [
+    {
+      "id": "07e33e77-6775-4970-8526-d1dc07fc555a",
+      "is_selected": false,
+      "display_name": "Tables",
+      "type": "table_grouping",
+      "description": null,
+      "children": [
+        {
+          "id": "7357e7de-45a3-4d5b-a544-72dcea57fe5c",
+          "is_selected": true,
+          "display_name": "CabLiveStats",
+          "type": "kusto.table",
+          "description": null,
+          "children": [
+            {
+              "id": "CabNumber",
+              "is_selected": true,
+              "display_name": "CabNumber",
+              "type": "kusto.column",
+              "data_type": "System.String",
+              "description": null,
+              "children": []
+            },
+            {
+              "id": "Timestamp",
+              "is_selected": true,
+              "display_name": "Timestamp",
+              "type": "kusto.column",
+              "data_type": "System.DateTime",
+              "description": null,
+              "children": []
+            },
+            {
+              "id": "Speed",
+              "is_selected": true,
+              "display_name": "Speed",
+              "type": "kusto.column",
+              "data_type": "System.Int64",
+              "description": null,
+              "children": []
+            },
+            {
+              "id": "EngineTemp",
+              "is_selected": true,
+              "display_name": "EngineTemp",
+              "type": "kusto.column",
+              "data_type": "System.Int64",
+              "description": null,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "342240d9-e179-4203-a375-3045ba85c09f",
+      "is_selected": false,
+      "display_name": "Functions",
+      "type": "function_grouping",
+      "description": null,
+      "children": []
+    },
+    {
+      "id": "bfe53d31-4306-4b2c-87f1-f40b242333d1",
+      "is_selected": false,
+      "display_name": "Shortcuts",
+      "type": "shortcut_grouping",
+      "description": null,
+      "children": []
+    },
+    {
+      "id": "f7c0e73e-ed2e-4b63-8f10-3f2251c930f7",
+      "is_selected": false,
+      "display_name": "Materialized Views",
+      "type": "materialized_view_grouping",
+      "description": null,
+      "children": []
+    }
+  ]
+}

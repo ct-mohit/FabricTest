@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "DataAgent",
+    "displayName": "TaxiRidesOntologyDataAgent"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "cb47d842-9ebd-b827-462e-c5cf97b96fe6"
+  }
+}

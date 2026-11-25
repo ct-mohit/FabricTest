@@ -1,0 +1,73 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/dataAgent/definition/ontology/1.0.0/schema.json",
+  "artifactId": "25dae9ea-2771-4b55-b811-921262007efd",
+  "workspaceId": "c0f20505-2d97-4910-a1f3-cd2148363d59",
+  "displayName": "TaxiRidesOntology",
+  "elements": [
+    {
+      "id": "Cab",
+      "is_selected": true,
+      "display_name": "Cab",
+      "type": "ontology.entity",
+      "description": "Cab",
+      "children": []
+    },
+    {
+      "id": "CabLiveInfo",
+      "is_selected": true,
+      "display_name": "CabLiveInfo",
+      "type": "ontology.entity",
+      "description": "CabLiveInfo",
+      "children": []
+    },
+    {
+      "id": "CompanyCab",
+      "is_selected": true,
+      "display_name": "CompanyCab",
+      "type": "ontology.entity",
+      "description": "Filtered items binding where LicenseType = NAMED DRIVER",
+      "children": []
+    },
+    {
+      "id": "Driver",
+      "is_selected": true,
+      "display_name": "Driver",
+      "type": "ontology.entity",
+      "description": "Driver",
+      "children": []
+    },
+    {
+      "id": "IndividualCab",
+      "is_selected": true,
+      "display_name": "IndividualCab",
+      "type": "ontology.entity",
+      "description": "Filtered items binding where LicenseType = OWNER MUST DRIVE",
+      "children": []
+    },
+    {
+      "id": "PaymentType",
+      "is_selected": true,
+      "display_name": "PaymentType",
+      "type": "ontology.entity",
+      "description": "PaymentType",
+      "children": []
+    },
+    {
+      "id": "TaxiRide",
+      "is_selected": true,
+      "display_name": "TaxiRide",
+      "type": "ontology.entity",
+      "description": "TaxiRide",
+      "children": []
+    },
+    {
+      "id": "TaxiZone",
+      "is_selected": true,
+      "display_name": "TaxiZone",
+      "type": "ontology.entity",
+      "description": "TaxiZone",
+      "children": []
+    }
+  ],
+  "entitiesWithUserAuthoredDescriptions": []
+}
